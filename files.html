@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Files</title>
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/framework.css">
+    <link rel="stylesheet" href="CSS/master.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- end google fonts -->
+</head>
+
+<body>
+    <div class="page d-flex">
+        <div class="sidebar bg-white p-20 p-relative">
+            <h3 class="p-relative txt-c mt-0 mb-50">NAME</h3>
+            <ul>
+                <li>
+                    <a class="d-flex align-c fs-14 c-black rad-6 p-10 mb-5" href="index.html">
+                        <i class="fa-regular fa-house fa-fw" style="font-weight: 900;"></i>
+                        <span class="fs-14 ml-10 hide-mobile">Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-c fs-14 c-black rad-6 p-10 mb-5" href="settings.html">
+                        <i class="fa-regular fa-gear fa-fw" style="font-weight: 900;"></i>
+                        <span class="fs-14 ml-10 hide-mobile">Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-c fs-14 c-black rad-6 p-10 mb-5" href="profile.html">
+                        <i class="fa-regular fa-user fa-fw" style="font-weight: 900;"></i>
+                        <span class="fs-14 ml-10 hide-mobile">Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-c fs-14 c-black rad-6 p-10 mb-5" href="projects.html">
+                        <i class="fa-regular fa-diagram-project fa-fw" style="font-weight: 900;"></i>
+                        <span class="fs-14 ml-10 hide-mobile">projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-c fs-14 c-black rad-6 p-10 mb-5" href="courses.html">
+                        <i class="fa-solid fa-lines-leaning fa-fw"></i>
+                        <span class="fs-14 ml-10 hide-mobile">Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-c fs-14 c-black rad-6 p-10 mb-5" href="friends.html">
+                        <i class="fa-solid fa-user-group fa-fw"></i>
+                        <span class="fs-14 ml-10 hide-mobile">Friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="active d-flex align-c fs-14 c-black rad-6 p-10 mb-5" href="files.html">
+                        <i class="fa-regular fa-file fa-fw" style="font-weight: 900;"></i>
+                        <span class="fs-14 ml-10 hide-mobile">files</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-c fs-14 c-black rad-6 p-10 mb-5" href="plans.html">
+                        <i class="fa-solid fa-hand-holding-dollar fa-fw"></i>
+                        <span class="fs-14 ml-10 hide-mobile">plans</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="content w-full">
+            <!-- start head -->
+            <div class="head bg-white p-15 between-flex overflow-hide">
+                <div class="search p-relative">
+                    <input class="p-10 .b-1s-ccc ml-10 rad-10 b-1s-ccc fs-14" type="search"
+                        placeholder="Type a keyword">
+                </div>
+                <div class="icons d-flex align-c">
+                    <span class="notifications p-relative">
+                        <i class="fa-regular fa-bell fa-lg"></i>
+                    </span>
+                    <img src="images/avatar.png" alt="">
+                </div>
+            </div>
+            <!-- end head -->
+            <h1 class="p-relative">Files</h1>
+            <!-- start files page -->
+            <div class="file-page d-flex gap-20 m-20">
+                <div class="file-stats bg-white rad-10 p-20">
+                    <h2 class="mt-0 mb-15">Files Statistics</h2>
+                    <div class="d-flex b-1s-eee p-10 align-c rad-6 fs-13 mb-15">
+                        <i class="fa-regular fa-file-pdf fa-lg c-blue w-40 h-40 mr-10 center-flex blue icon"></i>
+                        <div class="info">
+                            <span>PDF Files</span>
+                            <span class="d-block c-grey mt-5">130</span>
+                        </div>
+                        <div class="size c-grey">6.5GB</div>
+                    </div>
+                    <div class="d-flex b-1s-eee p-10 align-c rad-6 fs-13 mb-15">
+                        <i class="fa-regular fa-images fa-lg c-green w-40 h-40 mr-10 center-flex green icon"></i>
+                        <div class="info">
+                            <span>Images</span>
+                            <span class="d-block c-grey mt-5">5000</span>
+                        </div>
+                        <div class="size c-grey">2.3GB</div>
+                    </div>
+                    <div class="d-flex b-1s-eee p-10 align-c rad-6 fs-13 mb-15">
+                        <i class="fa-regular fa-file-word fa-lg c-red w-40 h-40 mr-10 center-flex red icon"></i>
+                        <div class="info">
+                            <span>Word Files</span>
+                            <span class="d-block c-grey mt-5">110</span>
+                        </div>
+                        <div class="size c-grey">1.7GB</div>
+                    </div>
+                    <div class="d-flex b-1s-eee p-10 align-c rad-6 fs-13 mb-15">
+                        <i class="fa-regular fa-file-csv fa-lg c-orange w-40 h-40 mr-10 center-flex orange icon" style="font-weight: 900;"></i>
+                        <div class="info">
+                            <span>CSV Files</span>
+                            <span class="d-block c-grey mt-5">99</span>
+                        </div>
+                        <div class="size c-grey">2.9GB</div>
+                    </div>
+                    <a class="c-white bg-blue fs-13 rad-6 d-block w-fit" href="">
+                        <i class="fa-solid fa-angles-up mr-10"></i>
+                        Upload</a>
+                </div>
+                <div class="files-content d-grid gap-20">
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img class="w-64 h-64 pt-15 mb-15" src="images/pdf.svg" alt="">
+                        </div>
+                        <div class="txt-c mb-15 fs-14">File-Name.pdf</div>
+                        <p class="c-grey fs-13">Uploader Name</p>
+                        <div class="info between-flex bt-1s-eee mt-10 pt-10 fs-13 c-grey">
+                            <span>dd/mm/yy</span>
+                            <span>5.5MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img class="w-64 h-64 pt-15 mb-15" src="images/psd.svg" alt="">
+                        </div>
+                        <div class="txt-c mb-15 fs-14">File-Name.psd</div>
+                        <p class="c-grey fs-13">Uploader Name</p>
+                        <div class="info between-flex bt-1s-eee mt-10 pt-10 fs-13 c-grey">
+                            <span>dd/mm/yy</span>
+                            <span>5.5MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img class="w-64 h-64 pt-15 mb-15" src="images/zip.svg" alt="">
+                        </div>
+                        <div class="txt-c mb-15 fs-14">File-Name.zip</div>
+                        <p class="c-grey fs-13">Uploader Name</p>
+                        <div class="info between-flex bt-1s-eee mt-10 pt-10 fs-13 c-grey">
+                            <span>dd/mm/yy</span>
+                            <span>5.5MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img class="w-64 h-64 pt-15 mb-15" src="images/pdf.svg" alt="">
+                        </div>
+                        <div class="txt-c mb-15 fs-14">File-Name.pdf</div>
+                        <p class="c-grey fs-13">Uploader Name</p>
+                        <div class="info between-flex bt-1s-eee mt-10 pt-10 fs-13 c-grey">
+                            <span>dd/mm/yy</span>
+                            <span>5.5MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img class="w-64 h-64 pt-15 mb-15" src="images/psd.svg" alt="">
+                        </div>
+                        <div class="txt-c mb-15 fs-14">File-Name.psd</div>
+                        <p class="c-grey fs-13">Uploader Name</p>
+                        <div class="info between-flex bt-1s-eee mt-10 pt-10 fs-13 c-grey">
+                            <span>dd/mm/yy</span>
+                            <span>5.5MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img class="w-64 h-64 pt-15 mb-15" src="images/zip.svg" alt="">
+                        </div>
+                        <div class="txt-c mb-15 fs-14">File-Name.zip</div>
+                        <p class="c-grey fs-13">Uploader Name</p>
+                        <div class="info between-flex bt-1s-eee mt-10 pt-10 fs-13 c-grey">
+                            <span>dd/mm/yy</span>
+                            <span>5.5MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img class="w-64 h-64 pt-15 mb-15" src="images/pdf.svg" alt="">
+                        </div>
+                        <div class="txt-c mb-15 fs-14">File-Name.pdf</div>
+                        <p class="c-grey fs-13">Uploader Name</p>
+                        <div class="info between-flex bt-1s-eee mt-10 pt-10 fs-13 c-grey">
+                            <span>dd/mm/yy</span>
+                            <span>5.5MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img class="w-64 h-64 pt-15 mb-15" src="images/psd.svg" alt="">
+                        </div>
+                        <div class="txt-c mb-15 fs-14">File-Name.psd</div>
+                        <p class="c-grey fs-13">Uploader Name</p>
+                        <div class="info between-flex bt-1s-eee mt-10 pt-10 fs-13 c-grey">
+                            <span>dd/mm/yy</span>
+                            <span>5.5MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img class="w-64 h-64 pt-15 mb-15" src="images/zip.svg" alt="">
+                        </div>
+                        <div class="txt-c mb-15 fs-14">File-Name.zip</div>
+                        <p class="c-grey fs-13">Uploader Name</p>
+                        <div class="info between-flex bt-1s-eee mt-10 pt-10 fs-13 c-grey">
+                            <span>dd/mm/yy</span>
+                            <span>5.5MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img class="w-64 h-64 pt-15 mb-15" src="images/pdf.svg" alt="">
+                        </div>
+                        <div class="txt-c mb-15 fs-14">File-Name.pdf</div>
+                        <p class="c-grey fs-13">Uploader Name</p>
+                        <div class="info between-flex bt-1s-eee mt-10 pt-10 fs-13 c-grey">
+                            <span>dd/mm/yy</span>
+                            <span>5.5MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img class="w-64 h-64 pt-15 mb-15" src="images/psd.svg" alt="">
+                        </div>
+                        <div class="txt-c mb-15 fs-14">File-Name.psd</div>
+                        <p class="c-grey fs-13">Uploader Name</p>
+                        <div class="info between-flex bt-1s-eee mt-10 pt-10 fs-13 c-grey">
+                            <span>dd/mm/yy</span>
+                            <span>5.5MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img class="w-64 h-64 pt-15 mb-15" src="images/zip.svg" alt="">
+                        </div>
+                        <div class="txt-c mb-15 fs-14">File-Name.zip</div>
+                        <p class="c-grey fs-13">Uploader Name</p>
+                        <div class="info between-flex bt-1s-eee mt-10 pt-10 fs-13 c-grey">
+                            <span>dd/mm/yy</span>
+                            <span>5.5MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img class="w-64 h-64 pt-15 mb-15" src="images/pdf.svg" alt="">
+                        </div>
+                        <div class="txt-c mb-15 fs-14">File-Name.pdf</div>
+                        <p class="c-grey fs-13">Uploader Name</p>
+                        <div class="info between-flex bt-1s-eee mt-10 pt-10 fs-13 c-grey">
+                            <span>dd/mm/yy</span>
+                            <span>5.5MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img class="w-64 h-64 pt-15 mb-15" src="images/psd.svg" alt="">
+                        </div>
+                        <div class="txt-c mb-15 fs-14">File-Name.psd</div>
+                        <p class="c-grey fs-13">Uploader Name</p>
+                        <div class="info between-flex bt-1s-eee mt-10 pt-10 fs-13 c-grey">
+                            <span>dd/mm/yy</span>
+                            <span>5.5MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img class="w-64 h-64 pt-15 mb-15" src="images/zip.svg" alt="">
+                        </div>
+                        <div class="txt-c mb-15 fs-14">File-Name.zip</div>
+                        <p class="c-grey fs-13">Uploader Name</p>
+                        <div class="info between-flex bt-1s-eee mt-10 pt-10 fs-13 c-grey">
+                            <span>dd/mm/yy</span>
+                            <span>5.5MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img class="w-64 h-64 pt-15 mb-15" src="images/pdf.svg" alt="">
+                        </div>
+                        <div class="txt-c mb-15 fs-14">File-Name.pdf</div>
+                        <p class="c-grey fs-13">Uploader Name</p>
+                        <div class="info between-flex bt-1s-eee mt-10 pt-10 fs-13 c-grey">
+                            <span>dd/mm/yy</span>
+                            <span>5.5MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img class="w-64 h-64 pt-15 mb-15" src="images/psd.svg" alt="">
+                        </div>
+                        <div class="txt-c mb-15 fs-14">File-Name.psd</div>
+                        <p class="c-grey fs-13">Uploader Name</p>
+                        <div class="info between-flex bt-1s-eee mt-10 pt-10 fs-13 c-grey">
+                            <span>dd/mm/yy</span>
+                            <span>5.5MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img class="w-64 h-64 pt-15 mb-15" src="images/zip.svg" alt="">
+                        </div>
+                        <div class="txt-c mb-15 fs-14">File-Name.zip</div>
+                        <p class="c-grey fs-13">Uploader Name</p>
+                        <div class="info between-flex bt-1s-eee mt-10 pt-10 fs-13 c-grey">
+                            <span>dd/mm/yy</span>
+                            <span>5.5MB</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end files page -->
+
+        </div>
+    </div>
+</body>
+
+</html>
